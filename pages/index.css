@@ -4,7 +4,8 @@
 .page {
   display: flex;
   flex-direction: column;
-  margin: auto;
+  box-sizing: border-box;
+  margin: 0 auto;
   padding-right: 150px;
   padding-left: 150px;
   min-width: 320px;
@@ -43,6 +44,11 @@
   padding: 0;
   list-style: none;
 }
+
+.header__nav-menu_mobile {
+  display: none;
+}
+
 .header__nav-link {
   color: white;
   text-decoration: none;
@@ -65,14 +71,13 @@
 }
 .header__contacts-socials {
   display: flex;
+  align-items: flex-start;
   gap: 30px;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 .header__contacts-social {
-}
-.content {
 }
 .hero {
   display: flex;
@@ -142,6 +147,20 @@
   -webkit-box-decoration-break: clone;
 }
 
+.hero__feature_accent {
+  background: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  box-decoration-break: clone;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  font-weight: 700;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  -webkit-box-decoration-break: clone;
+}
+
 .hero__features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -152,6 +171,11 @@
   list-style: none;
   text-align: right;
 }
+
+.hero__features_mobile {
+  display: none;
+}
+
 .hero__feature-title {
   margin: 0;
   margin-bottom: 5px;
@@ -214,7 +238,7 @@
   padding: 0;
   list-style: none;
 }
-.footer__about-link {
+.footer__link {
   color: white;
   text-decoration: none;
   font-weight: 400;
@@ -236,16 +260,10 @@
   padding: 0;
   list-style: none;
 
-  grid-template-rows: repeat(5, 1fr);
+  grid-template-rows: repeat(5, auto);
   grid-auto-flow: column;
 }
-.footer__nav-link {
-  color: white;
-  text-decoration: none;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
-}
+
 .footer__contacts {
   display: flex;
   align-items: flex-end;
@@ -261,6 +279,7 @@
 }
 .footer__socials {
   display: flex;
+  align-items: center;
   gap: 10px;
   margin: 0;
   padding: 0;
@@ -296,4 +315,166 @@
   font-size: 12px;
   font-family: 'Montserrat', Arial, Helvetica, sans-serif;
   line-height: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding-right: 0;
+    padding-left: 0;
+    background-image: none;
+  }
+
+  .header {
+    position: fixed;
+    top: 0;
+    justify-content: flex-start;
+    padding: 18px 16px;
+    width: 100%;
+    background-color: #0e1014;
+  }
+
+  .header__logo {
+    display: none;
+  }
+
+  .header__nav {
+    margin: 0;
+  }
+
+  .header__nav-menu {
+    display: none;
+  }
+
+  .header__nav-menu_mobile {
+    display: flex;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .header__nav-link {
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .header__nav-link_hide {
+    display: none;
+  }
+
+  .header__contacts {
+    display: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    padding: 94px 0 65px;
+    background-image: url('../images/bg-mobile.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+
+  .hero__heading {
+    padding: 0 16px;
+    max-width: 320px;
+  }
+
+  .hero__title {
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .hero__about {
+    align-items: flex-start;
+    gap: 21px;
+    margin-top: 45px;
+    padding: 0 16px;
+  }
+
+  .hero__about-title {
+    text-align: left;
+  }
+
+  .hero__about-title_accent {
+    text-transform: none;
+    letter-spacing: normal;
+  }
+
+  .hero__about-button {
+    display: none;
+  }
+
+  .hero__features {
+    display: none;
+  }
+
+  .hero__features_mobile {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .hero__feature-text {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .footer {
+    gap: 50px;
+    padding: 0 16px 60px;
+  }
+
+  .footer__links-container {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .footer__heading {
+    font-size: 12px;
+    line-height: 15px;
+  }
+
+  .footer__about-links {
+    gap: 8px;
+  }
+
+  .footer__nav {
+    margin: 0;
+  }
+
+  .footer__nav-links {
+    grid-template-columns: 100px;
+    column-gap: 48px;
+    row-gap: 8px;
+  }
+
+  .footer__link {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .footer__contacts {
+    align-items: flex-start;
+    gap: 14px;
+  }
+
+  .footer__socials {
+    gap: 16px;
+  }
+
+  .footer__adress {
+    font-size: 14px;
+    line-height: 17px;
+  }
+
+  .footer__copyright-container {
+    align-items: flex-start;
+  }
 }
