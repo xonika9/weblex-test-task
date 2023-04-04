@@ -26,11 +26,15 @@
 .header {
   display: flex;
   justify-content: space-between;
-  padding-top: 46px;
+  padding-top: 57px;
 }
 .header__logo {
+  width: 140px;
+  height: 58px;
 }
 .header__nav {
+  margin-top: 4px;
+  margin-right: 85px;
 }
 .header__nav-menu {
   display: flex;
@@ -50,6 +54,7 @@
 .header__contacts {
   display: flex;
   gap: 47px;
+  margin-top: 4px;
 }
 .header__contacts-phone {
   color: white;
@@ -112,6 +117,7 @@
   align-items: flex-end;
   flex-direction: column;
   gap: 40px;
+  margin-top: 16px;
   max-width: 305px;
 }
 .hero__about-title {
@@ -127,6 +133,8 @@
   -webkit-background-clip: text;
   background-clip: text;
   box-decoration-break: clone;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-weight: 700;
 
   -webkit-text-fill-color: transparent;
@@ -137,7 +145,8 @@
 .hero__features {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 30px;
+  column-gap: 26px;
+  row-gap: 32px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -145,7 +154,7 @@
 }
 .hero__feature-title {
   margin: 0;
-  margin-bottom: 3px;
+  margin-bottom: 5px;
   padding: 0;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -163,7 +172,7 @@
 }
 .hero__about-button {
   margin-top: 20px;
-  width: 262px;
+  width: 264px;
   height: 61px;
   background-color: #4077f3;
   color: white;
@@ -174,7 +183,8 @@
 .footer {
   display: flex;
   flex-direction: column;
-  margin-top: auto;
+  gap: 33px;
+  margin-top: 35px;
   padding-bottom: 20px;
 }
 .footer__links-container {
@@ -191,6 +201,7 @@
   padding: 0;
   color: #656566;
   text-transform: uppercase;
+  letter-spacing: 0.05em;
   font-weight: 700;
   font-size: 14px;
   line-height: 17px;
@@ -215,15 +226,18 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-right: 65px;
 }
 .footer__nav-links {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
   column-gap: 50px;
   row-gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
+
+  grid-template-rows: repeat(5, 1fr);
+  grid-auto-flow: column;
 }
 .footer__nav-link {
   color: white;
@@ -247,6 +261,7 @@
 }
 .footer__socials {
   display: flex;
+  gap: 10px;
   margin: 0;
   padding: 0;
   list-style: none;
@@ -254,6 +269,7 @@
 .footer__social {
 }
 .footer__adress {
+  margin-top: -4px;
   color: white;
   text-decoration: none;
   font-weight: 400;
