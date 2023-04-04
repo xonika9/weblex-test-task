@@ -9,4 +9,4 @@
 - HTML
 - CSS
 
-Link to [GitHub Pages](*)
+Link to [GitHub Pages](https://xonika9.github.io/welbex-test-task/)
