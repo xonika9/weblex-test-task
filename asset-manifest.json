@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.b5c1852a.css",
-    "main.js": "/static/js/main.70c4a856.js",
-    "static/media/bg.png": "/static/media/bg.a7fdc951e1a724daa980.png",
-    "static/media/Inter-Black.ttf": "/static/media/Inter-Black.4687db66d316ec27374b.ttf",
-    "static/media/Inter-Bold.ttf": "/static/media/Inter-Bold.9aab1ebe6bd16660e37e.ttf",
-    "static/media/Inter-Medium.ttf": "/static/media/Inter-Medium.9d1fd4235eeb376c5f96.ttf",
-    "static/media/Inter-Regular.ttf": "/static/media/Inter-Regular.b559a93b35af397f4b6f.ttf",
-    "static/media/bg-mobile.png": "/static/media/bg-mobile.bbf2114b52467f43640a.png",
-    "static/media/Montserrat-Medium.ttf": "/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
-    "static/media/Montserrat-Light.ttf": "/static/media/Montserrat-Light.dfb04f69b77b88e22558.ttf",
-    "index.html": "/index.html",
-    "main.b5c1852a.css.map": "/static/css/main.b5c1852a.css.map",
-    "main.70c4a856.js.map": "/static/js/main.70c4a856.js.map"
+    "main.css": "/xonika9.github.io/welbex-test-task/static/css/main.5965afe6.css",
+    "main.js": "/xonika9.github.io/welbex-test-task/static/js/main.70c4a856.js",
+    "static/media/bg.png": "/xonika9.github.io/welbex-test-task/static/media/bg.a7fdc951e1a724daa980.png",
+    "static/media/Inter-Black.ttf": "/xonika9.github.io/welbex-test-task/static/media/Inter-Black.4687db66d316ec27374b.ttf",
+    "static/media/Inter-Bold.ttf": "/xonika9.github.io/welbex-test-task/static/media/Inter-Bold.9aab1ebe6bd16660e37e.ttf",
+    "static/media/Inter-Medium.ttf": "/xonika9.github.io/welbex-test-task/static/media/Inter-Medium.9d1fd4235eeb376c5f96.ttf",
+    "static/media/Inter-Regular.ttf": "/xonika9.github.io/welbex-test-task/static/media/Inter-Regular.b559a93b35af397f4b6f.ttf",
+    "static/media/bg-mobile.png": "/xonika9.github.io/welbex-test-task/static/media/bg-mobile.bbf2114b52467f43640a.png",
+    "static/media/Montserrat-Medium.ttf": "/xonika9.github.io/welbex-test-task/static/media/Montserrat-Medium.a281f04d4c8926e7dea1.ttf",
+    "static/media/Montserrat-Light.ttf": "/xonika9.github.io/welbex-test-task/static/media/Montserrat-Light.dfb04f69b77b88e22558.ttf",
+    "index.html": "/xonika9.github.io/welbex-test-task/index.html",
+    "main.5965afe6.css.map": "/xonika9.github.io/welbex-test-task/static/css/main.5965afe6.css.map",
+    "main.70c4a856.js.map": "/xonika9.github.io/welbex-test-task/static/js/main.70c4a856.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5c1852a.css",
+    "static/css/main.5965afe6.css",
     "static/js/main.70c4a856.js"
   ]
 }
