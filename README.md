@@ -1,4 +1,4 @@
-# Welbex Test Task
+# Welbex Test Task.
 
 Тестовое задание 2 на позицию Frontend-разработчика в компанию amoCRM
 
